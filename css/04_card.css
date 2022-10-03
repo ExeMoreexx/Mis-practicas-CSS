@@ -6,12 +6,10 @@
 
 body {
   background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 35%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 9, 121, 1) 35%,
+      rgba(0, 212, 255, 1) 100%);
 }
 
 #container {
@@ -68,13 +66,27 @@ hr {
   color: rgb(37, 37, 37);
   font-size: 40px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin: 55px;
+  margin: 40px;
   font-weight: bold;
 }
 
-#la {
+#la1 {
   color: rgb(37, 37, 37);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: bold;
-  margin: 45px;
+  margin-left: 20px;
+}
+
+#la2 {
+  color: rgb(37, 37, 37);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  margin-left: 100px;
+}
+
+#la3 {
+  color: rgb(37, 37, 37);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  margin-left: 100px;
 }
