@@ -77,13 +77,15 @@ span {
 #la1 {
   color: gray;
   font-weight: bold;
-  margin-left: 20px;
+  float: left;
+  margin-left: 10px;
 }
 
 #la2 {
-  color: gray;
+  color: rgb(37, 37, 37);
   font-weight: bold;
-  margin-left: 70px;
+  float: left;
+  margin-left: 10px;
 }
 
 a {
@@ -98,6 +100,7 @@ a {
   border-radius: 5px;
   border: 2px solid rgba(110, 41, 102, 1);
   background-color: rgba(110, 41, 102, 1);
+  margin-top: 30px;
 }
 
 #btn-one:hover {
