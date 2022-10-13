@@ -7,9 +7,53 @@
 body {
   background-image: url(../img/img-breakingbad.jpeg);
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
   padding: 170px;
+  animation-name: ween;
+  animation-duration: 20s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ween {
+  0%{
+  background: url(../img/img-breakingbad.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  heigth: 100vh;
+  }
+}
+
+@keyframes ween {
+  0%{
+  background: url(../img/img-breakingbad2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  heigth: 100vh;
+  }
+}
+
+@keyframes ween {
+  0%{
+  background: url(../img/img-breakingbad3.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  heigth: 100vh;
+  }
+}
+
+@keyframes ween {
+  0%{
+  background: url(../img/img-breakingbad4.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  heigth: 100vh;
+  }
 }
 
 .divFrase {
