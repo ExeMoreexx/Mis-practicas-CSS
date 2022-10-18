@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  padding: 20px;
+}
+
+div {
+  width: 400px;
+  height: auto;
+  background: black;
+  margin: auto;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 10px black;
+  text-align: justify;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+button {
+  align-items: center;
+  background: black;
+  color: white;
+  padding: 15px;
+  margin: 20px;
+}
+
+button:hover {
+  border: 2px solid white;
+  transform: scale(1.05);
+}
